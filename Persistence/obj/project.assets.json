@@ -4060,11 +4060,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "e:\\repos\\reActivities\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "E:\\repos\\reActivities\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "e:\\repos\\reActivities\\Persistence\\Persistence.csproj",
+      "projectPath": "E:\\repos\\reActivities\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\thanos\\.nuget\\packages\\",
-      "outputPath": "e:\\repos\\reActivities\\Persistence\\obj\\",
+      "outputPath": "E:\\repos\\reActivities\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
