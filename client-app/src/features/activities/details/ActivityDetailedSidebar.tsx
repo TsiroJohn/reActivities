@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react'
-import { Segment, List, Item, Label, Image } from 'semantic-ui-react'
-import { Link } from 'react-router-dom'
+import React, { Fragment } from 'react';
+import { Segment, List, Item, Label, Image } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
 
-const ActivityDetailSidebar = () => {
-    return (
-        <Fragment>
+const ActivityDetailedSidebar = () => {
+  return (
+    <Fragment>
       <Segment
         textAlign='center'
         style={{ border: 'none' }}
@@ -55,7 +55,7 @@ const ActivityDetailSidebar = () => {
         </List>
       </Segment>
     </Fragment>
-    )
-}
+  );
+};
 
-export default ActivityDetailSidebar
+export default ActivityDetailedSidebar;

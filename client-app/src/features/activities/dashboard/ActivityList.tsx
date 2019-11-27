@@ -8,24 +8,20 @@ const ActivityList: React.FC = () => {
   const activityStore = useContext(ActivityStore);
   const { activitiesByDate } = activityStore;
   return (
-    <Fragment >
+    <Fragment>
       {activitiesByDate.map(([group, activities]) => (
         <Fragment key={group}>
-          <Label  size='large' color='blue'>
+          <Label size='large' color='blue'>
             {group}
           </Label>
- 
-            <Item.Group divided>
-              {activities.map(activity => (
-                <ActivityListItem key={activity.id} activity={activity} />
-              ))}
-            </Item.Group>
-
+          <Item.Group divided>
+            {activities.map(activity => (
+              <ActivityListItem key={activity.id} activity={activity} />
+            ))}
+          </Item.Group>
         </Fragment>
-
       ))}
     </Fragment>
-
   );
 };
 

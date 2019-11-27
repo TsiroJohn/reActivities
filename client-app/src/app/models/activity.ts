@@ -6,5 +6,4 @@ export interface IActivity {
     date: string;
     city: string;
     venue: string;
-
 }
